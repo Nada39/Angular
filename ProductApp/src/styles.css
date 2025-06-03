@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* General Styling */
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #fff5f7;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+
+/* Product Cards */
+.card {
+  transition: all 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 120, 140, 0.2);
+}
