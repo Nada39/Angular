@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { provideHttpClient } from '@angular/common/http';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
